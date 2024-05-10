@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="slides.css">
+  <script src="javascript/site.js"></script>
+  <script src="javascript/time.js"></script>
+  <script src="menu.json"></script>
+  <script src="javascript/event.js"></script>
+  <script src="javascript/slide.js"></script>
+  <title>Aroi Food Truck Home</title>
+</head>
+
+<body>
+  <header>
+    <img src="img/logo.png" alt="logo" width="300" height="300">
+    <h1>Aroi Food Truck Name</h1> 
+    <div class="top-left">
+      <!-- First Link -->
+      <a href="https://example.com">
+        <img src="img/fb.png" alt="First Website" width="30" height="30">
+      </a>
+      <!-- Second Link -->
+      <a href="https://example2.com">
+        <img src="img/ig.png" alt="Second Website" width="30" height="30">
+      </a>
+    </div>
+    <p id="open-close-status"></p>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="admin.html">Admin</a></li>
+      </ul>
+    </nav> 
+       <!-- Slideshow container -->
+   <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="img/fish.jpg" width="500" height="300" >
+    </div>
+    <div class="mySlides fade">
+      <img src="img/tomyumkoong.jpg" width="500" height="300">
+    </div>
+    <div class="mySlides fade">
+      <img src="img/PadThai.jpg" width="500" height="300" >
+    </div>
+ 
+    <!-- Add more slides as needed -->
+    <!-- Navigation buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  
+  </header>
+
+
+  <div id="content">
+    
+    <h2>About Us</h2>
+    <p>Welcome to Food Truck Name! We offer delicious food served with a smile. Check out our upcoming events below:</p>
+    <ul id="event-list">
+      <!-- Events will be dynamically loaded here -->
+      <li><a href="#" onclick="showEventDetails(1)">Event 1</a></li>
+      <li><a href="#" onclick="showEventDetails(2)">Event 2</a></li>
+      <li><a href="#" onclick="showEventDetails(3)">Event 3</a></li>
+    </ul>
+    
+    <!-- Event details section -->
+    <div class="event-details" id="event-details-1">
+      <h3>Event 1 Details</h3>
+      <p>Date: may 15, 2024</p>
+      <p>Location: Downtown</p>
+      <p>Time: 10:00 AM - 6:00 PM</p>
+    </div>
+    <div class="event-details" id="event-details-2">
+      <h3>Event 2 Details</h3>
+      <p>Date: May 25, 2024</p>
+      <p>Location: Park</p>
+      <p>Time: 11:00 AM - 7:00 PM</p>
+    </div>
+    <div class="event-details" id="event-details-3">
+      <h3>Event 3 Details</h3>
+      <p>Date: May 30, 2024</p>
+      <p>Location: Beach</p>
+      <p>Time: 12:00 PM - 8:00 PM</p>
+    </div>
+
+    <img src="img/about.jpg" alt="Second Website" width="800" height="500">
+  
+
+  <footer>
+    <p><small>&copy; 2024 - Chatmongkhnochai Reabroi (Nasa) - food truck</small></p>
+    <h6>Modern JavaScript 32144</h6>
+</footer>
+</div>
+</body>
+</html>

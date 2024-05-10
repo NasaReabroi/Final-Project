@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Food Fest",
+    "location": "City Park",
+    "dates": "2024-05-01",
+    "hours": "10:00 AM - 6:00 PM"
+  },
+  {
+    "id": 2,
+    "name": "Street Fair",
+    "location": "Downtown",
+    "dates": "2024-05-10",
+    "hours": "12:00 PM - 8:00 PM"
+  }
+]
+
